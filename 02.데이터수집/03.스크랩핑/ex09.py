@@ -3,6 +3,7 @@ from bs4 import BeautifulSoup
 import os
 import json
 
+#***
 path = os.getcwd() + '/data/hollys'
 if not os.path.exists(path):
     os.mkdir(path)

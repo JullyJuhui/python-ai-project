@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_96649642f52e7b401578b4187eab6ddf {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_96649642f52e7b401578b4187eab6ddf" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_96649642f52e7b401578b4187eab6ddf = L.map(
+                "map_96649642f52e7b401578b4187eab6ddf",
+                {
+                    center: [37.4904950346372, 127.005381592272],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 15,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_a5188bc313c6695c239f1a209f37b92a = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_a5188bc313c6695c239f1a209f37b92a.addTo(map_96649642f52e7b401578b4187eab6ddf);
+        
+    
+            var marker_8d961e393dd9b4d7e70d2a6e47ff16b6 = L.marker(
+                [37.4904950346372, 127.005381592272],
+                {
+}
+            ).addTo(map_96649642f52e7b401578b4187eab6ddf);
+        
+    
+            var icon_73a7f6008d0fa5b8550549f8e79b99d0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "glyphicon-road",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2eda8a58b46f4605171bb8643fef70f0 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_ae66c31b055b51d358d908ba1fba6723 = $(`<div id="html_ae66c31b055b51d358d908ba1fba6723" style="width: 100.0%; height: 100.0%;">서초마제스타시티점<br>02-6411-0063<br>서울특별시 서초구 서초대로38길 12</div>`)[0];
+                popup_2eda8a58b46f4605171bb8643fef70f0.setContent(html_ae66c31b055b51d358d908ba1fba6723);
+            
+        
+
+        marker_8d961e393dd9b4d7e70d2a6e47ff16b6.bindPopup(popup_2eda8a58b46f4605171bb8643fef70f0)
+        ;
+
+        
+    
+    
+                marker_8d961e393dd9b4d7e70d2a6e47ff16b6.setIcon(icon_73a7f6008d0fa5b8550549f8e79b99d0);
+            
+    
+            var marker_63fa5dc11ecd87ccb57fc465b68b65cd = L.marker(
+                [37.4928727432965, 127.012979871645],
+                {
+}
+            ).addTo(map_96649642f52e7b401578b4187eab6ddf);
+        
+    
+            var icon_14cbcc1b0c270189436eef263572b8af = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "glyphicon-road",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8206f7bc230fea81270fd05dc7d76ab2 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_3a203fea49f32ed2fb257a2d5c00bb3b = $(`<div id="html_3a203fea49f32ed2fb257a2d5c00bb3b" style="width: 100.0%; height: 100.0%;">교대역점<br>02-521-8944<br>서울특별시 서초구 반포대로30길 81</div>`)[0];
+                popup_8206f7bc230fea81270fd05dc7d76ab2.setContent(html_3a203fea49f32ed2fb257a2d5c00bb3b);
+            
+        
+
+        marker_63fa5dc11ecd87ccb57fc465b68b65cd.bindPopup(popup_8206f7bc230fea81270fd05dc7d76ab2)
+        ;
+
+        
+    
+    
+                marker_63fa5dc11ecd87ccb57fc465b68b65cd.setIcon(icon_14cbcc1b0c270189436eef263572b8af);
+            
+    
+            var marker_ab7fbda4169620c9a6a71c221f919e8b = L.marker(
+                [37.4803713866046, 126.996896954333],
+                {
+}
+            ).addTo(map_96649642f52e7b401578b4187eab6ddf);
+        
+    
+            var icon_bbd7ea2030f3dbd5dcaf17a4f666557b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "glyphicon-road",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c7d92c97447c3e59fc01614710f6097e = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_af729263dff779e071a72d284d169a2f = $(`<div id="html_af729263dff779e071a72d284d169a2f" style="width: 100.0%; height: 100.0%;">백석예술대학교점<br>02-585-9150<br>서울특별시 서초구 방배로9길 23</div>`)[0];
+                popup_c7d92c97447c3e59fc01614710f6097e.setContent(html_af729263dff779e071a72d284d169a2f);
+            
+        
+
+        marker_ab7fbda4169620c9a6a71c221f919e8b.bindPopup(popup_c7d92c97447c3e59fc01614710f6097e)
+        ;
+
+        
+    
+    
+                marker_ab7fbda4169620c9a6a71c221f919e8b.setIcon(icon_bbd7ea2030f3dbd5dcaf17a4f666557b);
+            
+    
+            var marker_32e4f6242c688f9c7b376fe77262944d = L.marker(
+                [37.4596446385464, 127.042624862658],
+                {
+}
+            ).addTo(map_96649642f52e7b401578b4187eab6ddf);
+        
+    
+            var icon_46e8bba560513fc500775273e18cddea = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "glyphicon-road",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_29e12b596dba74cececd156f9b07a910 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_6ce421bf500b8a62b1f9961e71240253 = $(`<div id="html_6ce421bf500b8a62b1f9961e71240253" style="width: 100.0%; height: 100.0%;">(하)만남의광장점<br>02-578-3372<br>서울특별시 서초구 양재대로12길 73-71</div>`)[0];
+                popup_29e12b596dba74cececd156f9b07a910.setContent(html_6ce421bf500b8a62b1f9961e71240253);
+            
+        
+
+        marker_32e4f6242c688f9c7b376fe77262944d.bindPopup(popup_29e12b596dba74cececd156f9b07a910)
+        ;
+
+        
+    
+    
+                marker_32e4f6242c688f9c7b376fe77262944d.setIcon(icon_46e8bba560513fc500775273e18cddea);
+            
+    
+            var marker_3676fbfd3ab3c68309f50e167de1f328 = L.marker(
+                [37.5064357442307, 127.006834366246],
+                {
+}
+            ).addTo(map_96649642f52e7b401578b4187eab6ddf);
+        
+    
+            var icon_64fdae42fa4c8e9849194972fb1cad26 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "glyphicon-road",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_49a17761eba1a68489255fff81cc18c1 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_7971ff1474abea59bb21fe3c56609204 = $(`<div id="html_7971ff1474abea59bb21fe3c56609204" style="width: 100.0%; height: 100.0%;">고속터미널영동선점<br>02-591-1555<br>서울특별시 서초구 신반포로 194</div>`)[0];
+                popup_49a17761eba1a68489255fff81cc18c1.setContent(html_7971ff1474abea59bb21fe3c56609204);
+            
+        
+
+        marker_3676fbfd3ab3c68309f50e167de1f328.bindPopup(popup_49a17761eba1a68489255fff81cc18c1)
+        ;
+
+        
+    
+    
+                marker_3676fbfd3ab3c68309f50e167de1f328.setIcon(icon_64fdae42fa4c8e9849194972fb1cad26);
+            
+    
+            var marker_3a57eb82638629ecf5cee8b803247fe0 = L.marker(
+                [37.4867307777424, 127.015750032123],
+                {
+}
+            ).addTo(map_96649642f52e7b401578b4187eab6ddf);
+        
+    
+            var icon_805f4defc0f733dff5c2c9611b1e64b3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "glyphicon-road",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e3015963941265b00ad525378ec18493 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_9e1c1f8c60900db86551996340274783 = $(`<div id="html_9e1c1f8c60900db86551996340274783" style="width: 100.0%; height: 100.0%;">남부터미널점<br>02-584-9500<br>서울특별시 서초구 서초중앙로 52</div>`)[0];
+                popup_e3015963941265b00ad525378ec18493.setContent(html_9e1c1f8c60900db86551996340274783);
+            
+        
+
+        marker_3a57eb82638629ecf5cee8b803247fe0.bindPopup(popup_e3015963941265b00ad525378ec18493)
+        ;
+
+        
+    
+    
+                marker_3a57eb82638629ecf5cee8b803247fe0.setIcon(icon_805f4defc0f733dff5c2c9611b1e64b3);
+            
+</script>
+</html>
